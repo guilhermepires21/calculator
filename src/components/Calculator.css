@@ -1,0 +1,45 @@
+button
+{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;           /* tirando borda*/
+    border-radius: 2em;     /* borda en circulo */
+    margin: 0.3em;          /* afastando um do lado outro */
+}    
+
+button:hover
+{  
+    cursor: pointer;                /* pra virar CliK */
+   
+}
+
+.wrapper                           /* Minha ClaSS */
+{
+    background-color: black;    /* Cor deFUndo */
+    border-radius: 1em;           /* borda curva do funfo  preto da class*/
+    padding: 1em;                 /* uma esticada e uma afastada */
+}
+
+.orange
+{
+    background-color: #FF9500;
+    color: white;
+}
+
+.gray 
+{
+    background-color: #505050;
+    color: white;
+}
+
+.result
+{
+    color: white;
+    display: flex;
+    justify-content: right;   /* colocando o numero pra direita na tela */
+                              /* ou flex-end no lugar do right*/
+    margin-right: 1em;  
+    font-size: 3.5em;      /* na direita um pouco pra frente */                  
+
+}
